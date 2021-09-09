@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+    text-align: center;
 }
 
 main {
@@ -20,6 +21,7 @@ main {
     width: 340px;
     height: 550px;
     border-radius: 12px;
+    box-shadow: 3px 15px 15px hsl(224, 23%, 75%);
 }
 
 .topImg {
@@ -31,6 +33,7 @@ main {
 }
 
 .mainContent {
+    margin: 25px;
 
 }
 
@@ -39,11 +42,19 @@ main {
 }
 
 .annualPlan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
 
 }
 
 .annualImg {
-
+    background-image: url(images/icon-music.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
 }
 
 .annualText {
@@ -51,10 +62,15 @@ main {
 }
 
 .annualChange {
-
+    align-self: center;
+ 
 }
 
 .proceed {
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px hsl(224, 23%, 75%);
 
 }
 
