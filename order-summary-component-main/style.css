@@ -3,6 +3,26 @@
     margin: 0;
 }
 
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+strong {
+    color: hsl(223, 47%, 23%);
+}
+
+a {
+    color:hsl(245, 75%, 52%);
+}
+
+#white {
+    color: hsl(225, 100%, 98%)
+}
+
+#grey {
+    color: hsl(224, 23%, 55%);
+}
+
 body {
     background-color: hsl(225, 100%, 94%);
     background-image: url(images/pattern-background-desktop.svg);
@@ -46,6 +66,7 @@ main {
     display: flex;
     padding: 15px;
     justify-content: space-evenly;
+    margin: 15px 0 30px;
 
 }
 
@@ -71,13 +92,14 @@ main {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 5px 10px 10px hsl(224, 23%, 75%);
+    margin: 15px 0 30px; 
 
 }
 
 .cancel {
+    color: hsl(224, 23%, 55%);
 
 }
-
 
 
 /* # Front-end Style Guide
