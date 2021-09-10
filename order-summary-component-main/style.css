@@ -72,6 +72,10 @@ main {
     height: 550px;
     border-radius: 12px;
     box-shadow: 3px 15px 15px hsl(224, 23%, 75%);
+    z-index: 2;
+    position:relative;
+    animation: fadeIn;
+    animation-duration: 2s;
 }
 
 .topImg {
@@ -130,6 +134,10 @@ main {
     color: hsl(224, 23%, 55%);
 }
 
+@keyframes fadeIn {
+    0% { top: -500px;}
+    100% {top: 0px;}
+}
 
 /* # Front-end Style Guide
 
